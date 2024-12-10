@@ -1,0 +1,48 @@
+# Entorno de Python
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Archivos de configuración y credenciales
+*.env
+*.DS_Store
+instance/
+config.py
+config.json
+
+# Archivos de Flask específicos
+*.log
+*.sqlite3
+instance/
+
+# Directorios específicos de IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos generados por Pytest y cobertura de código
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+
+# Archivos de bases de datos locales y migraciones (si usas Flask-Migrate)
+migrations/
+*.db
+*.sqlite
+
+# Distribución y paquetes
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Otros archivos generados
+*.bak
+*.swp

@@ -1,0 +1,7 @@
+Flask
+numpy
+openai==0.28
+python-dotenv
+flask-cors
+joblib
+scikit-learn
